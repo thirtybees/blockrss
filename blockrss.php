@@ -24,7 +24,7 @@
 *  International Registered Trademark & Property of PrestaShop SA
 */
 
-if (!defined('_PS_VERSION_'))
+if (!defined('_TB_VERSION_'))
 	exit;
 
 include_once(_PS_CLASS_DIR_.'../tools/pear/PEAR.php');
@@ -47,8 +47,8 @@ class Blockrss extends Module
 		$this->displayName = $this->l('RSS feed block');
 		$this->description = $this->l('Adds a block displaying a RSS feed.');
 
-		$this->version = '1.3.2';
-		$this->author = 'PrestaShop';
+		$this->version = '2.0.0';
+		$this->author = 'thirty bees';
 		$this->error = false;
 		$this->valid = false;
 		$this->ps_versions_compliancy = array('min' => '1.6', 'max' => '1.6.99.99');
