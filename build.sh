@@ -1,18 +1,13 @@
 #!/usr/bin/env bash
 CWD_BASENAME=${PWD##*/}
 
-FILES+=("${CWD_BASENAME}.php")
 FILES+=("index.php")
-FILES+=("init.php")
+FILES+=("${CWD_BASENAME}.php")
 FILES+=("logo.gif")
 FILES+=("logo.png")
 FILES+=("Readme.md")
-FILES+=("controllers/**")
-FILES+=("entities/**")
-FILES+=("install/**")
+FILES+=("img/**")
 FILES+=("translations/**")
-FILES+=("views/**")
-
 
 MODULE_VERSION="$(sed -ne "s/\\\$this->version *= *['\"]\([^'\"]*\)['\"] *;.*/\1/p" ${CWD_BASENAME}.php)"
 MODULE_VERSION=${MODULE_VERSION//[[:space:]]}
