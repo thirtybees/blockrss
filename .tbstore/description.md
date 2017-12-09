@@ -1,0 +1,1 @@
+The block RSS allows you to add an RSS feed to either the left or right column of your site. This module is great for use with Wordpress or other blogging platforms.
