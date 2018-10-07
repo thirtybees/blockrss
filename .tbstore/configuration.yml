@@ -6,6 +6,7 @@ tags:
   - blog
   - rss feed
   - seo
+  - blockrss
 description_short: The block RSS module allows you to add an RSS feed to your site.
 description: description.md
 images:

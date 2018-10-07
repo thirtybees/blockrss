@@ -3,11 +3,12 @@ compatible_versions: 1.0.0+
 author: thirty bees
 category: front office
 tags:
-  - blog
-  - rss feed
-  - seo
+- blog
+- rss feed
+- seo
+- blockrss
 description_short: The block RSS module allows you to add an RSS feed to your site.
 description: description.md
 images:
-  - image-1.png
+- image-1.png
 license: AFL
