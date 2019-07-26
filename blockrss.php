@@ -60,7 +60,8 @@ class Blockrss extends Module
         $this->author = 'thirty bees';
         $this->error = false;
         $this->valid = false;
-        $this->tb_versions_compliancy = '~1.0.0';
+        $this->tb_min_version = '1.0.0';
+        $this->tb_versions_compliancy = '>= 1.0.0';
     }
 
     /**
